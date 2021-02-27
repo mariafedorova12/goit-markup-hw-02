@@ -67,7 +67,6 @@
 .navigation-link:focus {
   background: #f5f4fa;
   font-weight: 500px;
-  font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
   cursor: pointer;
@@ -103,7 +102,6 @@
 }
 .modal-btn {
   font-weight: 700px;
-  font-size: 16px;
   line-height: 1.88;
   border: 0px;
 
@@ -157,7 +155,6 @@
 
 .crew-list-title {
   font-weight: 500px;
-  font-size: 16px;
   line-height: 1.19;
 
   /* identical to box height */
@@ -165,7 +162,6 @@
 }
 
 .crew-list-position {
-  font-size: 16px;
   line-height: 1.19;
 
   /* identical to box height */
@@ -179,7 +175,6 @@
 
 .button {
   font-weight: 500px;
-  font-size: 16px;
   line-height: 1.62;
 
   /* identical to box height, or 162% */
@@ -206,7 +201,6 @@
   color: #212121;
 }
 .portfolio-title-description {
-  font-size: 16px;
   line-height: 1.88;
 
   /* identical to box height, or 187% */
