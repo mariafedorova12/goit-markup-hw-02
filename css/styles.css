@@ -174,7 +174,8 @@
 /*======= PORTFOLIO =======*/
 
 .button {
-  font-weight: 500px;
+  font-family: inherit;
+  font-weight: 500;
   line-height: 1.62;
 
   /* identical to box height, or 162% */
