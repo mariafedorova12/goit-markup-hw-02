@@ -17,7 +17,6 @@ body {
 
 .link {
   text-decoration: none;
-  color: inherit;
 }
 
 .list {
@@ -65,8 +64,8 @@ body {
   color: var(--accent-color);
 }
 
-.mailto-link,
-.tel-link {
+.header-mailto-link,
+.header-tel-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.71;
@@ -95,7 +94,8 @@ body {
   color: var(--header-background-color);
 }
 
-.footer .contact-information-item {
+.footer-mailto-link,
+.footer-tel-link {
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -166,8 +166,7 @@ body {
 
 /*======= CREW ======= */
 
-.crew-list,
-.crew-title {
+.crew {
   background-color: var(--secondary-background-color);
 }
 
