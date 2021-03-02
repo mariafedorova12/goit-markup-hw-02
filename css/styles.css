@@ -9,7 +9,7 @@
   --secondary-background-color: #f5f4fa;
   --button-hover-color: #fff;
 }
-.body {
+body {
   font-family: var(--main-font);
   background-color: #ffffff;
   color: var(--title-color);
@@ -30,6 +30,7 @@
 /*======= LOGO =======*/
 
 .logo-title {
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -51,8 +52,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
-  color: var(--title-color);
+  letter-spacing: 0.02em;
 }
 
 .current {
@@ -103,7 +103,7 @@
 
 /* ======== HERO ======= */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--footer-background-color);
 }
 
 .hero-title {
@@ -114,7 +114,7 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--header-background-color);
 }
 
 .modal-btn {
@@ -123,7 +123,7 @@
   line-height: 1.8;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--button-hover-color);
   width: 200px;
   height: 50px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -141,10 +141,10 @@
 
 /*======= ABOUT ========= */
 .about-title {
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: var(--title-color);
 }
 .about-title-description {
   font-size: 14px;
@@ -161,7 +161,6 @@
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  color: var(--title-color);
 }
 /*====== END SERVICES ====== */
 
@@ -188,27 +187,13 @@
 
 /*======= PORTFOLIO =======*/
 
-.portfolio-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-
-  /* identical to box height, or 200% */
-  letter-spacing: 0.06em;
-
-  color: var(--title-color);
-}
-
-.portfolio-title-description {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.8;
-  letter-spacing: 0.03em;
-  color: var(--text-description-color);
-}
-
 .button {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
   border: 0.5px;
   background-color: var(--secondary-background-color);
   border-radius: 4px;
@@ -221,3 +206,20 @@
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  /* identical to box height, or 200% */
+}
+
+.portfolio-title-description {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--text-description-color);
+}
+
+/*======= END PORTFOLIO =======*/
