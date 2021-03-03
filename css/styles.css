@@ -2,6 +2,7 @@
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
+  --secondary-text-color: rgba(255, 255, 255, 0.6);
   --title-color: #212121;
   --text-description-color: #757575;
   --header-background-color: #fff;
@@ -17,6 +18,7 @@ body {
 
 .link {
   text-decoration: none;
+  color: inherit;
 }
 
 .list {
@@ -64,8 +66,7 @@ body {
   color: var(--accent-color);
 }
 
-.header-mailto-link,
-.header-tel-link {
+.contact-information {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.71;
@@ -73,10 +74,8 @@ body {
   color: var(--text-description-color);
 }
 
-.mailto-link:hover,
-.mailto-link:focus,
-.tel-link:hover,
-.tel-link:focus {
+.in-header:hover,
+.in-header:focus {
   color: var(--accent-color);
 }
 
@@ -94,9 +93,8 @@ body {
   color: var(--header-background-color);
 }
 
-.footer-mailto-link,
-.footer-tel-link {
-  color: rgba(255, 255, 255, 0.6);
+.in-footer {
+  color: var(--secondary-text-color);
 }
 
 /*============== END FOOTER ============*/
